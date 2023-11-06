@@ -3,7 +3,7 @@
 include_once "Komputer.php";
 include_once "Laptop.php";
 
-$komputer= new Komputer();
+$komputer= new Komputer()
 
 echo $komputer->hidupkan();
 echo "<br/>";
